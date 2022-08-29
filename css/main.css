@@ -1,0 +1,196 @@
+body{
+    background-image:url(../images/bg.jpg);
+    /* Full height */
+    max-width: 100%;
+    height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(247,173,9);
+background: linear-gradient(90deg, rgba(247,173,9,1) 1%, rgba(246,56,223,1) 63%, rgba(80,200,224,1) 89%, rgba(97,186,224,1) 96%);
+
+ }
+
+
+ #coupon{
+    margin-top: 7%;
+    height:450px;
+    width:800px;
+    
+    position:fixed;
+    margin-left:20%;
+    z-index: 10;
+    display: none;
+    box-shadow: 10px 10px 10px;
+    }
+
+
+
+#topmenu{
+    background-color: hsl(189, 100%, 26%) !important;
+    padding-left: 15px;
+    
+}
+#bottom{
+    background-color: hsl(189, 100%, 26%) ;
+    border: 2px solid black;
+    
+}
+h3{
+    color: white;
+}
+
+
+ a:hover {
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+#imagesmenu{
+    display: inline-block;
+    display:flexbox;
+    margin-top: -180px;
+    margin-left: 20px;
+    height:330px;
+    width:310px;
+    border:2px solid black;
+    position: relative;
+    background-color: white;
+}
+
+#tag1{
+    margin-top: 120px;
+    color: black;
+    margin-left: 18px;
+}
+#tag41{
+    margin-top: 120px;
+    color: black;
+    margin-left: 18px;
+}
+
+#tag2{
+    margin-top: 120px;
+    color: black;
+    margin-left: 165px;
+}
+#tag42{
+    margin-top: 120px;
+    color: black;
+    margin-left: 165px;
+    font-size: 16px;
+}
+#tag3{
+    margin-top: 280px;
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#tag43{
+    margin-top: 280px;
+    color: black;
+    margin-left: 10px;
+    
+}
+#tag4{
+    margin-top: 275px;
+    color: black;
+    margin-left: 165px;
+    }
+    #tag44{
+        margin-top: 275px;
+        color: black;
+        margin-left: 165px;
+        }
+
+#tag21{
+        margin-top: 120px;
+        color: black;
+        margin-left: 18px;
+    }
+#tag22{
+        margin-top: 120px;
+        color: black;
+        margin-left: 165px;
+    }
+    #tag23{
+        margin-top: 291px;
+        color: black;
+        margin-left: 18px;
+        
+    }  
+    #tag24{
+        margin-top: 291px;
+        color: black;
+        margin-left: 165px;
+    }
+        #tag31{
+            margin-top: 120px;
+            color: white;
+            margin-left: 18px;
+            
+            font-weight: bolder;
+        }
+        #tag32{
+            margin-top: 120px;
+            color: black;
+            margin-left: 165px;
+            font-size: 16px;
+            color: white;
+            font-weight: bolder;
+        }
+        #tag33{
+            margin-top: 285px;
+            color: white;
+            margin-left: 15px;
+            font-weight: bolder;
+            
+        }
+        #tag34{
+            margin-top: 291px;
+            color: white;
+            margin-left: 165px;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+#box2{
+    padding-top: 80px;
+}
+
+#couponbutton:hover{
+    background-color: red;
+}
+
+
+
+.carousel-inner{
+    width:100%;
+    max-height: 300px !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    #imagesmenu{
+      margin-left: 85px;
+      margin-top: 5px;
+      
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+        #coupon{
+          height: 250px;
+          width: 400px;
+          margin-left: 10%;
+          
+        }
+        }
+
+    @media screen and (max-width: 600px) {
+        body{
+            background: rgb(247,173,9);
+            background: linear-gradient(90deg, rgba(247,173,9,1) 1%, rgba(246,56,223,1) 63%, rgba(80,200,224,1) 89%, rgba(97,186,224,1) 96%); 
+        }
+
+
+    
